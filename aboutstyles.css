@@ -1,0 +1,70 @@
+body
+{
+  background: url('back3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: scroll;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#links {
+  width: 102px;
+  margin-top: 30px;
+  float: left;
+  position: fixed;
+}
+
+.buttonTop {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding-top: 7px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  color: black;
+}
+
+.buttonTop:hover {
+  background-color: #2F627B;
+  text-decoration: none;
+  border: 0;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#a {
+  color: white;
+}
+
+#work {
+  float: left;
+  margin-top: 20px;
+}
+
+#txt {
+  color: white;
+  background-color: rgba(0,0,0,0.35);
+  padding-left: 5px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  border-width: 6px;
+  border-style: solid;
+  font-size: 18px;
+  line-height: 45px; 
+  width: 70%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #txt {
+        width: 95%;
+        margin: 5px;
+    }
+}

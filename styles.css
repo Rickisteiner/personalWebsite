@@ -1,0 +1,73 @@
+body
+{
+  background-image:url('back3.jpg');
+  background-size: 1440px 1490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#me {
+  width: 287px;
+  height: 258px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+img {
+  width: 100%;
+}
+
+#links {
+  width: 205px;
+  margin: 20px auto;
+  background: none;
+  border: 0;
+}
+
+.buttonTop {
+  width: 100px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  padding-top: 7px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  color: black;
+}
+
+.buttonTop:hover {
+  background-color: #2F627B;
+  text-decoration: none;
+  border: 0;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#a {
+  color: black;
+}
+
+#work {
+  margin-left: 5px;
+}
+
+#txt {
+  color: white;
+  text-align: center;
+}
+
+#linksMore {
+  margin: 30px auto;
+  width: 315px;
+}
