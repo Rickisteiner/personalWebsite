@@ -1,9 +1,10 @@
 body
 {
-  background-image:url('back3.jpg');
-  background-size: 1440px 1490px;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('back3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   overflow: scroll;
   font-family: sans-serif;
   text-decoration: none;
@@ -61,6 +62,8 @@ img {
 #work {
   margin-left: 5px;
 }
+
+#content {}
 
 #txt {
   color: white;
