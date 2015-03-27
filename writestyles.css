@@ -48,6 +48,11 @@ body
   margin-top: 20px;
 }
 
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 #images {
   width: 815px;
   height: 400px;
@@ -57,6 +62,17 @@ body
   border-width: 6px;
   border-color: rgba(0, 0, 0, 0.35);
   margin-top: 20px;
+}
+
+#images:hover {
+  background-color: #2F627B;
+  opacity: 0.7;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 img {
@@ -73,16 +89,6 @@ img {
   font-size: 25px; 
   width: 85%;
   margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#links {
-  width: 205px;
-}
-
-#votify {
-  margin-left: 123px;
-  margin-top: -49px;
 }
 
 @media screen and (max-width: 500px) {
@@ -94,8 +100,5 @@ img {
     #txt {
       width: 95%;
       margin: 10px auto;
-    }
-    .buttonTop {
-      margin-left: 10px;
     }
 }
