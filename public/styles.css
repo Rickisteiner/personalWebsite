@@ -10,6 +10,16 @@ body
   text-decoration: none;
 }
 
+.cont {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 400px) {
+    .cont {
+        margin-top: 0;
+    }
+}
+
 #me {
   width: 287px;
   height: 258px;
