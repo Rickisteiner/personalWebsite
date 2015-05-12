@@ -3,9 +3,4 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-// app.get('/', function(req, res){
-//   res.send('index.html');
-// });
-
-
-app.listen(80);
+app.listen(3000);
